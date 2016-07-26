@@ -1,0 +1,1038 @@
+/*@font-face{
+  font-family:"Brush Script MT";
+  src:url("http://www.myfontfree.com/data/54/b/brush-script-mt/BRUSHSCI.TTF");
+}
+
+
+
+@font-face{
+	font-family:"Brush Script MT";
+	src:url("brush script mt kursiv.TTF");
+}
+*/
+@font-face{
+  font-family:"AlexBrush";
+  src:url(../fonts/AlexBrush.TTF);
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+.free-div{
+	width: 25.333333% !important;
+}
+.container{
+	width: 100% !important;
+  
+}
+
+/*for header*/
+.row{
+	background-color: #000;
+}
+
+.topbar{
+          height: auto;
+          background-color: #ED1B24;
+  }
+
+.top-section-contact {
+    color: #fff;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.top-section-contact li{
+	list-style: none;
+}
+
+.pull-right li{
+	list-style: none;
+	padding: 15px 10px 10px 10px;
+	font-size: 16px;
+	display: inline-block;
+	color: #fff;
+}
+
+.pull-right .fa{
+	color: #fff;
+}
+.title-part{
+	text-align: center;
+}
+
+
+.logo-part img{
+	height: 130px;
+  width: 138px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.title-part h2{
+	color: #fff;
+	margin-top: 0px;
+	font-family: 'Alex Brush', cursive;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	
+}
+
+
+
+
+/*for navigation*/
+
+
+.row{
+	box-shadow: 0px 2px 10px #999;
+	font-family: 'Alex Brush', cursive;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+.navmiddle{
+  margin-left: 5%;
+}
+.navbar-nav > li > a{
+	color: #fff;
+  transition:background-color ease-in 0.3s;
+  -webkit-transition:background-color ease-in 0.3s;
+  -moz-transition:background-color ease-in 0.3s;
+  -o-transition:background-color ease-in 0.3s;
+}
+
+.nav > li > a:hover{
+  background-color: #ED1B24 !important;
+	
+
+}
+
+.navbar-toggle .icon-bar{
+	color: #fff !important;
+}
+.icon-bar{
+	color:#fff !important;
+	background-color:red !important;
+}
+.dropdown-menu li{
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+.dropdown-menu li:hover{
+	background-color: red !important;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+	background-color: #ED1B24 !important;
+
+}
+
+
+.navbar-nav > li .star:hover{
+    color: #fff;
+}
+
+
+
+
+/*slider*/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: 500px;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+  /*end of slider*/
+
+  /*design section*/
+  /*start of hover text on image*/
+ 
+
+/*end of hover text on image*/
+  .wrapperdesign{
+  	background-color: #CBCBCB;
+  }
+
+  .designs{
+  	background-color: #bfbfbf;
+  }
+  .designs h2{
+    margin-left: -8px;
+  }
+  .design-1{
+  	background-color: #CBCBCB;
+  	
+    margin-bottom: 30px; 	
+  }
+.design-1  img{
+  height: 235px;
+  border-radius: 50%;
+  border: 3px solid #191919;
+  margin-bottom: 30px;
+}
+
+  .wrapper{  
+        position:relative; /* important(so we can absolutely position the description div */  
+    }  
+  .desc{  
+        position:absolute; /* absolute position (so we can position it where we want)*/  
+        left:0px;  
+        display:none; /* hide it */  
+        /* styling bellow */  
+        background-color:black;  
+        font-family: 'sans-serif';  
+        font-size:15px;  
+        color:white;  
+    }  
+  .desc_content{  
+  padding: 10px;
+  margin-top: -232px;
+  opacity: 1;
+  background: #333;
+  border-radius: 50%;
+  height: 232px;
+  width: 102%;
+    }  
+
+.desc_content p{
+  margin: 20px auto;
+}
+ 
+ .design-2{
+    background-color: #CBCBCB;
+   text-align: center;   
+    padding: 10px 50px !important;
+    margin-bottom: 20px;
+
+  }
+.design-2  img{
+  height: 235px;
+  border-radius: 50%;
+  border: 3px solid #191919;
+}
+
+
+.top-design{
+    background-color: #CBCBCB;
+    text-align: center;   
+    padding: 10px 50px !important;
+    margin-bottom: 20px;
+  }
+.top-design  img{
+  height: 235px;
+  border-radius: 50%;
+  border: 3px solid #191919;
+}
+ 
+.most-viewed{
+    background-color: #CBCBCB;
+    text-align: center;   
+   padding: 10px 50px !important;
+   margin-bottom: 20px;
+  }
+.most-viewed  img{
+  height: 235px;
+  border-radius: 50%;
+  border: 3px solid #191919;
+}
+
+.facebook{
+	text-align: center;
+  margin-top: 30px;
+}
+
+/*for testominial*/
+.bx-wrapper .testimonials-thumbnail{ margin: 0px 0px 15px; }
+.bx-wrapper .testimonials-title{ text-align: center;  margin: 25px 15px 3px; font-size: 24px; line-height: 1; }
+.bx-wrapper .testimonials-carousel-thumbnail{ max-width: 35%; float: left; margin-right: 20px; }
+.bx-wrapper .testimonials-carousel-thumbnail img{ display: block;   margin-right: 20px;width: 100px;}
+.bx-wrapper .testimonials-carousel-context{ overflow: hidden; }
+.bx-wrapper .testimonials-name{ font-size: 18px; margin-bottom: 15px; font-weight:400;}
+.bx-wrapper span{ font-size: 11px; margin-left:10px; color:#aaa; font-family: Georgia, Arial, Helvetica, sans-serif; font-style:italic; }
+.bx-wrapper {position: relative;padding: 0;width:100%;margin-top: 40px;}
+.bx-wrapper .slide {padding:0;margin:0;display: block;}
+.bx-wrapper .bx-viewport {padding:10px;margin-left:0;z-index:1;width:100%;}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {position: absolute;display:none;bottom: -30px;width: 100%;}
+.bx-wrapper .bx-loading {min-height: 50px;background: url(../images/bx_loader.gif) center center no-repeat #fff;height: 100%;width: 100%;position: absolute;top: 0;left: 0;z-index: 2000;}
+.bx-wrapper .bx-pager {text-align: center;font-size: .85em;font-weight: bold;color: #666;padding-top: 20px;}
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {display: inline-block;*zoom: 1;*display: inline;}
+.bx-wrapper .bx-pager.bx-default-pager a {background: #666;text-indent: -9999px;display: block;width: 10px;height: 10px;margin: 0 5px;outline: 0;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {background: #000;}
+.bx-wrapper .bx-next {position: absolute;top: 0;right: 0;width: 30px;border-left:1px solid #000;height: 30px;cursor: pointer;background: #ED3131 url(../images/caousel-next.png) no-repeat 0 0 ;}
+.bx-wrapper .bx-prev {position: absolute;top: 0px;right: 30px;border-right:1px solid #000;width: 30px;height: 30px;cursor: pointer;background: #ED3131 url(../images/caousel-prev.png) no-repeat 0 0 ;}
+.bx-wrapper .bx-controls-direction a {position: absolute;top: 0;margin-top: 0;margin-right: 0px;outline: 0;width: 30px;height: 30px;text-indent: -9999px;z-index: 9999;}
+.bx-viewport{height: auto !important;}
+
+
+/*end*/
+/*footer*/
+.footmiddle{
+  height: auto;
+  text-align: center;
+}
+
+.footmiddle h1{
+  color: #fff;
+  font-family: century;
+}
+
+.footmiddle p{
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.footmiddle i{
+  color: #fff;
+  padding: 10px;
+}
+
+.footdown p{
+  font-family: sans-serif;
+  color: #73726E;
+  font-size: 10px;
+}
+
+
+/*end footer*/
+/*back to top*/
+.go-top{
+  position: fixed;
+  right: 0.5em;
+  bottom: 2.5em;
+  text-decoration: none;
+  z-index: 9999;
+  display: none;
+}
+
+.go-top i{
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 25px;
+  border-radius: 60%;
+  padding: 5px;
+}
+.go-top i:hover{
+	background: #fff;
+	color: #000;
+	transition: 0.2s;
+	-webkit-transition: 0.5s ease;
+}
+
+.contactinfo{
+  font-family: sans-serif;
+}
+
+.infoleft{
+  color: #fff;
+  margin-top: 5px;
+  margin: -1% 4%;
+  display: block;
+  box-shadow: none;
+}
+
+.infoleft .company{
+  display: block;
+  font-size:36px;
+  padding-bottom: 3px;
+}
+
+.infoleft .address{
+  display: block;
+  font-size: 17px;
+  padding-bottom: 3px;
+}
+
+.infoleft .phone{
+  display: block;
+  font-size: 17px;
+  padding-bottom: 3px;
+}
+.infoleft .mobile{
+  display: block;
+  font-size: 17px;
+  padding-bottom: 3px;
+}
+.infoleft .mail{
+    display: block;
+    font-size: 17px;
+    padding-bottom: 3px;
+}
+
+.info .infoleft h3{
+      color:red;
+      font-size:35px; 
+}
+
+.submit{
+  width: 35%;
+  color: #fff;
+  padding: 5px;
+  margin-left: -50px;
+  background: #ED1B24;
+  margin-bottom: 15px;
+}
+
+.submit:hover{
+  box-shadow: 0px 2px 10px #999;
+}
+
+
+
+.feedback{
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 1% 4%;
+
+}
+
+.feedback table{
+  width: 100%;
+}
+
+.feedback .input{
+  background-color: #ECF0F1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  width: 100%;
+  margin:5px 0px 5px 0px;
+  color: #000;
+}
+
+.feedback .textarea{
+      width: 100%;
+      height: 155px;
+      -webkit-box-sizing:border-box;
+      -moz-box-sizing:border-box;
+      box-sizing:border-box;
+}
+
+
+
+.googlemap .map iframe{
+  width: 100%;
+  }
+
+/*tatoo page start*/
+.gallery-1{
+  text-align: center;
+}
+
+.gallery-1 img{
+  height: 235px;
+  width: 95%;
+  margin-top: 40px;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  cursor: pointer;
+
+}
+
+.gallery-1 img:hover{
+  border: 1px solid #ED1B24;
+}
+
+.gallery-1 li{
+  list-style-type: none;
+  float: left;
+}
+
+.gallery-1 ul{
+  display: inline-block;
+}
+
+.pagination-section{
+  text-align: center;
+}
+
+/*tattoo page ends*/
+
+/*artist page starts*/
+.artist{
+  text-align: center;
+}
+
+
+
+.artist-cover img{
+  height: 400px;
+  width: 100%;
+}
+
+
+.artist-info{
+  box-shadow: none;
+}
+
+.artist-display-picture img{
+        height: 150px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin-top: -100px;
+        margin-left: 13px;
+}
+
+.artist-name h3{
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  
+}
+
+.artist-navigation{
+  box-shadow: none;
+  text-align: justify;
+
+}
+
+.artist-nav{
+  background: #D5D5D5;
+  border-radius: 7px;
+}
+
+.artist-nav ul{
+  list-style-type: none;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+.artist-nav ul li{
+  display: inline;
+  padding: 20px;
+
+  
+}
+
+.artist-nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+.artist-nav ul li a:hover{
+        color: #ED1B24;
+}
+
+
+.description{
+  box-shadow: none;
+}
+
+.artist-description{
+    font-family: sans-serif;
+    color: #fff;
+}
+
+
+.artist-description table{
+  padding: 10px;
+  text-align: justify;
+}
+
+.artist-description table p{
+  font-size: 16px;
+}
+
+.artist-gallery{
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.artist-gallery img{
+  width: 95%;
+  height: 235px;
+  border: 1px solid #fff;
+  margin-top: 15px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  cursor: pointer;
+
+}
+.artist-gallery img:hover{
+  border: 1px solid #ED1B24;
+}
+/*artist page ends*/
+/*studio page starts*/
+.studio-section-1{
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.studio-image img{
+  height: 450px;
+  width: 100%;
+}
+
+.studio-description p{
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+
+.studio-section-2{
+  font-family: sans-serif;
+  color: #fff;
+  box-shadow: none;
+}
+/*studio page ends*/
+
+/*about page starts*/
+.top-about{
+  color: #fff;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.about-image{
+  text-align: center;
+}
+.about-image img{
+    height: 500px;
+    margin-bottom: 40px;
+  }
+
+.title-bar{
+padding: 10px 5px 1px 0px;
+border-bottom: 4px solid #ED1B24;
+margin-bottom: 10px;
+font-family: 'Open Sans', sans-serif; 
+font-size: 30px; 
+font-weight: 300; 
+line-height: 32px; 
+margin: 0 0 72px; 
+
+}
+
+
+
+.about-desc p{
+  color: #fff; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 17px; 
+  line-height: 24px; 
+  margin: 0 0 24px; 
+  text-align: justify; 
+  text-justify: inter-word;
+}
+
+/*about page ends*/
+
+/*news page starts*/
+.news-list{
+  font-family: sans-serif;
+  color: #fff;
+   border-top: 2px solid #fff;
+   
+}
+
+.heading {
+    background: #ED1B24;
+    padding: 5px;
+    border-radius: 3px;
+    
+}
+.news-list ul{
+  list-style-type: none;
+}
+
+
+.news-list h3{
+    margin: -15px auto 0 auto;
+}
+
+.news-image{
+  height: 250px;
+  width: 70%;
+  box-shadow:0px 0px 21px 8px #333;
+}
+
+.news-1 heading{
+  font-size: 17px;
+  color: #ACACAC;
+}
+
+.news-1 date{
+  font-size: 12px;
+}
+
+.news-1 news{
+  font-size: 17px;
+}
+
+.news-1 a{
+text-decoration: none;
+float: right;
+}
+
+
+
+
+
+.recent-news{
+    color: #fff;
+    font-family: sans-serif;
+    width: 100%;
+
+
+}
+
+.recent-news ul{
+  list-style-type: none;
+}
+
+
+.recent-news ul li{
+    float: left;
+    margin-left: -20px;
+    text-align: left;
+    
+}
+
+.recent-news h4{
+  font-size: 17px;
+
+}
+
+.recent-news-list{
+  font-size: 17px;
+  margin: 5px 0px 20px -13px;
+  text-align: left;
+  
+}
+
+.recent-news a{
+  text-decoration: none;
+ color: #ACACAC;
+  transition:color ease-in 0.3s;
+  -webkit-transition:color ease-in 0.3s;
+  -moz-transition:color ease-in 0.3s;
+  -o-transition:color ease-in 0.3s;
+}
+
+.recent-news a:hover{
+    color: #333;
+}
+
+
+
+
+/*news page ends*/
+/*read more page begins*/
+.readmore{
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.news-title{
+      font-family:"Helvetica Neue",Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.readmore author{
+      color: #737373;
+      font-size: 15px;
+}
+
+.readmore date{
+  color: #737373;
+  font-size: 15px;
+}
+
+
+.readmore img{
+    width: 90%;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.readmore p{
+line-height: 1.375;
+text-align: justify;
+font-weight: 500;
+padding: 0px 15px 0px;
+color: #fff;
+font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/*read more page ends*/
+
+/*online page starts*/
+.tattoo-categories{
+    color: #fff;
+    font-family: sans-serif;
+
+
+}
+
+.tattoo-categories h3{
+    background: #ED1B24;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 21px;
+}
+
+
+.tattoo-categories ul{
+  list-style-type: none;
+  border: 1px solid #fff;
+  margin-top: -10px;
+
+}
+
+.tattoo-categories ul li{
+  border-bottom:1px dotted #fff; 
+  margin-left: -21px;
+  padding: 5px 0px 0px 0px;
+}
+
+
+
+.tattoo-categories a{
+  color: #fff ;
+  
+}
+
+.tattoo-categories a:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+.tattoo-selection{
+  width: 55%;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.tattoo-selection h1{
+  text-align: center;
+}
+
+.tattoo-selection h2{
+  color: #ED1B24;
+  text-align: center;
+}
+
+.tattoo-selection img{
+    height: 360px;
+    margin-top: 20px;
+    text-align: right;
+    width: 100%;
+}
+
+.online-order{
+  font-family: sans-serif;
+}
+
+
+
+
+
+
+/* Outer */
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+    font-family: sans-serif;
+}
+.popup-inner h3{
+  font-family: Brush Script MT,cursive;
+  font-size: 44px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+
+.popup-inner input{
+    margin: 20px 5px !important;
+
+}
+
+.book{
+  width: 100%;
+  background: #ED1B24;
+  background: #ED1B24;
+  padding: 6px;
+  border-radius: 4px;
+  color: #fff;
+}
+ 
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:#ED1B24;
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+/*online page ends*/
+/*all artist page*/
+.all-artist{
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+ 
+}
+.all-artist ul{
+  list-style: none;
+
+}
+
+.all-artist ul li{
+  display: inline-block;
+  
+
+}
+.artist-cover-image{
+    height: 200px;
+    width: 100%;
+}
+
+.artist-image{
+
+width: 130px;
+height: 129px;
+position: relative;
+top: -58px;
+margin-bottom: -45px !important;
+float: none !important;
+opacity: 1;
+border-radius: 50%;
+border: 6px solid #000;
+}
+
+.all-artist a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.all-artist a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.all-artist h4{
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+
+
+
+/*end of all artist page*/
+
+.buttons{
+display: inline-block;
+padding:8px 16px;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+border: 1px solid transparent;
+border-radius: 4px;
+background: #ED1B24;
+color: #fff;
+text-decoration: none;
+}
+
+.buttons:hover{
+box-shadow: 0px 0px 11px 9px #333;
+color: #fff;
+text-decoration: none;
+}

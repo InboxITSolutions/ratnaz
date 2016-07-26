@@ -1,0 +1,537 @@
+/*login page starts*/
+a{
+	text-decoration: none;
+}
+
+
+.container{
+	width: 95% !important;
+	margin: 0px auto;
+}
+
+.row{
+	background: #F2F2F2;
+}
+
+
+.login{
+	text-align: center;
+}
+
+.login img{
+	margin-top: 100px;
+}
+
+.login form{
+width: 100%;
+background: #fff;
+padding: 20px 0px 10px 0px;
+margin-top: 20px;
+
+}
+
+
+.login label{
+	display: block;
+padding: 0px 0px 0px 15px;
+font-size: 17px;
+text-align: left;
+margin-left: 30px
+}
+
+.login input{
+	width: 80%;
+height: 50px;
+border: 1px solid #f2f2f2;
+margin: 5px 0px 10px 15px;
+padding-left: 10px;
+}
+
+.login form span{
+	float: right;
+margin-right: 60px;
+font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*login page ends*/
+/*CSS Document*/
+body{
+	font-family: Arial, "sans-serif";
+	background-color: #f5f5f5;
+	margin: 0px;
+	padding: 0px;
+}
+.wrap{
+	width: 31%;
+    margin: 7% auto;
+}
+.wrap img{
+	vertical-align: middle;
+	margin: 0px auto;
+	display: block;
+}
+.wrap form{
+	width: 100%;
+	height:250px;	
+	background: #fff;
+	padding: 20px 0px 10px 0px;
+	margin-top: 20px;
+	text-align: center;
+}
+.wrap form label{
+	display: block;
+    padding: 0px 0px 0px 15px;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 30px;
+}
+.wrap form input{
+	width: 80%;
+	height: 50px;
+	border: 1px solid #f2f2f2;
+	margin: 5px 0px 10px 15px;
+	padding-left: 10px;
+}
+.wrap form .btn_admin_login{
+	float: right;
+	width: 25%;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.wrap form span{
+	float: right;
+    margin-right: 60px;
+    font-size: 15px;
+}
+.wrap form span a{
+	text-decoration: none;
+}
+
+/*Dashboard Starts*/
+
+header{
+	width: 100%;
+	height: 60px;
+	margin: 0px;
+	padding: 0px;
+	background: #28459B;
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 2px 2px #333;
+}
+.header_left{
+	float: left;
+	width: 20%;
+}
+.header_left h1{
+	margin: 10px 0px 0px 20px;
+	padding: 0px;
+	color: #fff;
+}
+.header_right{
+	float: left;
+	width: 80%;
+	margin-top: 5px;
+}
+.header_right nav{
+	width: 100%;
+	margin-top: 10px;
+}
+.header_right nav ul{
+	list-style: none;
+}
+.header_right nav ul li{
+	display: inline-block;
+
+}
+.header_right nav ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #fff;
+	background: rgb(29, 29, 113);
+}
+.header_right nav ul li a:hover{
+	background: rgb(40, 40, 136);
+}
+
+.container .addItem{
+	float: right;
+	width: 20%;
+	background: #f7f7f7;
+	box-shadow: 0px 0px 8px 5px #CCCCCC;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+.add{
+	margin: 10px 0px 3px;
+	padding-bottom: 4px;
+	text-align: center;
+	box-shadow: 0px 2px 2px 0px rgb(204, 204, 204);
+	color: rgb(100, 24, 24);
+}
+
+.addItem .btn_browse{
+	padding: 5px;
+	font-size: 16px;
+	color: #4E4E50;
+	cursor: pointer;
+}
+.addItem .btn_Add{
+	font-size: 18px;
+	padding: 10px 100px;
+	margin: 12px 10px 47px 10px;
+	background-color: #E6E6FF;
+	color: #4E4E50;
+	box-shadow: -2px -2px 4px 2px #cccccc;
+	border: 1px solid #BDBDBD;
+	cursor: pointer;
+}
+.addItem .btn_Add:hover{
+	background-color:#C2D6D6;
+	box-shadow: 2px 2px 4px 2px #cccccc;
+}
+
+.container .data_container{
+	width: 75%;
+	border: 0px;
+	margin: 0px auto;
+	padding: 20px;
+	text-align: center;
+	background: #f7f7f7;;
+	float: left;
+	box-shadow: 0px 0px 8px 5px #CCCCCC;
+	color: RGBA(60, 60, 62, 0.9);
+}
+.container .heading{
+	color: rgba(140, 0, 0, 0.9);
+	border-bottom: 3px solid;
+	padding: 0px;
+}
+.container .heading .head{
+	border-bottom: 2px solid;
+}
+.container .data_container img{
+	padding: 10px 0px 10px 0px;
+	height: 120px;
+	box-shadow: 0px 0px 3px 1px #333;
+	margin: 5px !important;
+}
+.container .data_container th{
+	height: 40px;
+	border: 0px groove #222;
+}
+.container .data_container td{
+	border: 0px groove #222;
+}
+
+.container .data_container .head{
+	background-color: #f7f7f7 !important;
+	box-shadow: 0px 3px 3px 0px #C2D6D6;
+	color: #641818;
+}
+.container .data_container tr:nth-child(even){
+	background-color: #e6e6ff;
+}
+.container .data_container tr:nth-child(odd){
+	background-color: #c2d6d6;
+}
+.data_container p{
+	text-align: justify;
+}
+.heading span{
+	float: right;
+}
+.heading span a{
+	text-decoration: none;
+	color:#983042;
+	padding: 10px 20px;
+	background: #c3c3c3; 
+
+}
+/*Dashboard Ends*/
+/*function.php*/
+.change li{
+	padding: 5px
+}
+.change .edit_btn{
+	text-decoration: none;
+	color: #2F0F0F;
+}
+.change .edit_btn:hover{
+	color: #961818;
+	box-shadow: 2px 2px 1px 1px #cccccc;
+}
+/*function.php*/
+/*tattooartist.php*/
+
+.addItem .artist_table td{
+	padding: 5px;
+	width: 135px;
+}
+.addItem .table_data input{
+	width: 100% !important;
+	padding: 4px 0px !important;
+}
+
+.addItem .table_data td{
+	width: inherit !important;
+	padding: 5px 0px !important;
+}
+.addItem .artist_table input{
+	width: 90%;
+	box-shadow: -1px -1px 5px 0px #cccccc;
+	background-color: #E8F3F3;
+	border: 1px solid #bdbdbd;
+	padding: 4px;
+}
+.addItem .artist_table select{
+	width: 100%;
+	box-shadow: -1px -1px 5px 0px #cccccc;
+	background-color: #E8F3F3;
+	border: 1px solid #bdbdbd;
+	padding: 4px 0px;
+}
+.addItem .artist_table input:hover{
+	box-shadow: 1px 1px 5px 0px #cccccc;
+}
+/*tattooartist.php*/
+
+/*newsmanagement.php*/
+.addnews a{
+	font-size: 18px;
+	padding: 10px 45px;
+	background-color: #E6E6FF;
+	color: #641818;
+	box-shadow: -2px -2px 4px 2px #cccccc;
+	border: 1px solid #BDBDBD;
+	cursor: pointer;
+	text-decoration: none;
+}
+.addnews{
+	float: right;
+	padding: 0px 0px;
+	text-align: center;
+	margin-bottom: 12px;
+	margin: 7px 12px 25px 0px;
+}
+.addnews a:hover{
+	background-color:#C2D6D6;
+	box-shadow: 2px 2px 4px 2px #cccccc;
+}
+/*newsmanagement.php*/
+.new_item tr{
+	margin: 5px 0px;
+}
+#heading{
+		height: 40px;
+		width: 99%;
+		font-size: 17px;
+		margin-bottom: 15px;
+		padding: 0px 0px 0px 6px;
+	}
+#non{
+	width: 90%;
+	text-align: center;
+	text-transform: uppercase;
+	box-shadow: 0px 0px 5px 2px #ccc;
+	font-size: 20px;
+	color: red;
+}
+/*ScoreBoard Starts*/
+.wrap form select{
+	float: right;
+    height: 30px;
+    width: 30%;
+    margin: -25px 30px 0px 0px;
+}
+.btn_clear_history{
+	padding: 10px 20px;
+	margin: 0px 0px 0px 25px;
+	background: #E21212;
+	color: #f9f9f9;
+	text-decoration: none;
+	box-shadow: 1px 0px 3px 1px #333;
+	width:18%;
+}
+/*ScoreBoard Ends*/
+
+#sidebar{
+	background:#F5F5F5;
+	
+	height:100%;
+	display:block;
+	position:absolute;
+	left:-18.5%;
+	width: 18%;
+	top:0px;
+	text-align: center;
+	-webkit-transition:left 0.3s linear;
+	-moz-transition:left 0.3s linear;
+	-o-transition:left 0.3s linear;
+	transition:left 0.3s linear;
+}
+
+#sidebar.visible{
+	z-index: 1;
+	width: 18%;
+	left:0px;
+	box-shadow: 1px 0px 5px 0px #333;
+	border-right: 1px solid #DDDDDD;
+	-webkit-transition:left 0.3s linear;
+	-moz-transition:left 0.3s linear;
+	-o-transition:left 0.3s linear;
+	transition:left 0.3s linear;
+}
+header img{
+	height: 125px;
+	 width: 53.5%;
+	margin: 0px 0px 0px 0px;
+}
+
+#sidebar ul{
+	margin:0px;
+	padding:0px;
+}
+
+#sidebar ul li{
+	list-style:none;
+}
+
+#sidebar ul li a{
+	background:RGBA(0, 31, 125, 0.95);
+	color:#f2f2f2;
+	border-bottom:1px solid #6F6F6F;
+	box-shadow: 0px 0px 10px 0px #ccc;
+	display:block;
+	width:93%;
+	padding: 19px 9px;
+	text-decoration: none;
+}
+#sidebar ul ul{
+	visibility: hidden;
+	position: absolute;
+}
+#sidebar ul li:hover{
+	visibility: visible;
+	position: relative;
+	background-color: #000;
+}
+
+#sidebar-btn{
+	display:inline-block;
+	vertical-align: middle;
+	width:20px;
+	height:15px;
+	cursor:pointer;
+	margin:20px 13px 0px 0px;
+	position:absolute;
+	top:0px;
+	right:-69px;
+}
+
+#sidebar-btn .fa{
+	font-size: 22px;
+	color:#fff;
+}
+#sidebar-btn .fa:hover{
+	color:#e7e7e7;
+}
+
+#sidebar-btn .tm {
+	color: #fff;
+	margin-top: 0px;
+	font-family: Brush Script MT,cursive;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	width: 150px;
+}
+.info{
+	float:right; 
+	margin: 20px 32px;
+}
+.info ul{
+	list-style: none;
+	margin: 0px;
+}
+.info li{
+	display: inline;
+	padding: 21px;
+}
+.link a{
+	color: #fff;
+	text-decoration: none;
+}
+.link:hover{
+	background:#09096D;
+}
+.user{
+	text-transform: uppercase;
+	color:#fff; 
+	cursor: pointer;
+}
+.user .user-img img{
+	height: 20px;
+	width: 20px;
+}
+.user:hover{
+	background:#09096D;
+}
+
+
+}
+
+/*Contact Management*/
+.wrap_contact{
+	width: 70%;
+    margin: 7% auto;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.wrap_contact form{
+	width: 80%;	
+	background: #fff;
+	padding: 20px 0px 70px 0px;
+	margin-top: 20px;
+	text-align: center;
+}
+.wrap_contact form label{
+	display: block;
+    padding: 0px 0px 0px 15px;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 30px;
+}
+.wrap_contact form input{
+	width: 80%;
+	height: 50px;
+	border: 1px solid #f2f2f2;
+	margin: 5px 0px 10px 15px;
+	padding-left: 10px;
+}
+.wrap_contact form .btnUpdate{
+	float: right;
+	width: 25%;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.wrap_contact form span{
+	float: right;
+    margin-right: 60px;
+    font-size: 15px;
+}
+.wrap_contact form span a{
+	text-decoration: none;
+}

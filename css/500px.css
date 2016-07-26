@@ -1,0 +1,78 @@
+@media screen and (max-width:500px){
+
+
+.logo-part {
+	text-align: center;
+}
+
+
+
+.googlemap .map iframe{
+  width: 90%;
+  margin: 20px;
+}
+
+#quote-carousel .carousel-indicators .active {
+	opacity: 0.4;
+}
+
+.artist-gallery img{
+	width: 80%;
+}
+
+.bx-prev{
+	display: none;
+}
+.bx-next{
+	display: none;
+}
+
+.rslides img{
+	height: 300px;
+}
+
+.title-part h2{
+font-size: 2em;
+}
+
+.logo-part{
+	padding: 0% 8% 0% 0% !important;
+}
+
+.design-2{
+	padding: 10px 43px !important;
+}
+
+.top-design{
+	padding: 10px 43px !important;
+}
+
+.most-viewed{
+	padding: 10px 43px !important;
+}
+
+.bx-wrapper{
+	margin: 0 !important;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 1024px){
+	
+}
+
+
+@media screen and (max-width: 800px){
+	.googlemap .map iframe{
+		width: 90%;
+	}	
+
+	.artist-gallery img{
+		width: 80%;
+	}	
+}
+
+
